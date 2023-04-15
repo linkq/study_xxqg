@@ -50,7 +50,7 @@ func study() *grumble.Command {
 				_, _ = c.App.Println("the index not exist")
 				return nil
 			}
-			user := users[index]
+			user := users[index-1]
 			go func() {
 				config := conf.GetConfig()
 				l := &lib.Core{Push: push.GetPush(conf.GetConfig()), ShowBrowser: config.ShowBrowser}
