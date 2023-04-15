@@ -6,3 +6,8 @@
 /config/config.yml
 /chromium-857950/
 /tools
+.vscode/launch.json
+.vscode/settings.json
+QuestionBank.db
+pid.pid
+config/user.db
